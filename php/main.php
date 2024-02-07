@@ -24,7 +24,7 @@ const USER_LIST = [
     ['id' => 3, 'name' => 'ユーザー3', 'email' => 'user3@example.com', 'password' => 'password'],
 ];
 
-function getUserDatas(array  $users)
+function getUserDatas(array  $users): array
 {
     $userDatas = [];
     foreach ($users as $user) {

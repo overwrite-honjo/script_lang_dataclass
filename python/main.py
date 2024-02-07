@@ -16,7 +16,7 @@ USER_LIST = (
 )
 
 
-def getUserDatas(users: List[UserData]):
+def getUserDatas(users: List) -> List[UserData]:
     userDatas = []
     for user in users:
         userDatas.append(UserData(user['id'], user['name'], user['email']))
